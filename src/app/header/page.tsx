@@ -142,9 +142,9 @@ const Header = () => {
               </div>
 
               {/* Fixed Navigation Links */}
-                <a href="carrer" className="text-gray-300 hover:text-orange-400 font-semibold transition-all duration-300">
+                {/* <a href="carrer" className="text-gray-300 hover:text-orange-400 font-semibold transition-all duration-300">
                Carrer
-              </a>
+              </a> */}
               <a href="about" className="text-gray-300 hover:text-orange-400 font-semibold transition-all duration-300">
                 About
               </a>
