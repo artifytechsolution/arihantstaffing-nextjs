@@ -495,7 +495,7 @@ export default function CompleteBannerComponent({ backgroundRef, textRef }) {
         <div className="relative z-10 grid lg:grid-cols-2 min-h-screen">
           
           {/* Left Section - Staffing Agency Content */}
-          <div className="flex pt-14 items-center justify-center px-8 sm:px-12 lg:px-16 xl:px-20 py-20 lg:py-12">
+          <div className="flex pt-14 items-center lg:mt-14 justify-center px-8 sm:px-12 lg:px-16 xl:px-20 py-20 lg:py-8">
             <div className={`w-full max-w-2xl transition-all duration-1500 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'
             }`}>
