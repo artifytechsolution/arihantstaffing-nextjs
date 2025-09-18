@@ -506,10 +506,10 @@ export default function CompleteBannerComponent({ backgroundRef, textRef }) {
                 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight mb-12"
               >
                 <span className="block text-white mb-4 drop-shadow-lg">
-                  Connect With Top
+                  Find Your 
                 </span>
                 <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent animate-pulse">
-                  Leading Companies
+                 Perfect Talent Match
                 </span>
               </h1>
 
