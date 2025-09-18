@@ -467,10 +467,10 @@ export default function CompleteBannerComponent({ backgroundRef, textRef }) {
       {/* Hero Section with 3D Model - UNCHANGED AS REQUESTED */}
       <section 
         ref={heroRef}
-        className="relative min-h-screen w-full overflow-hidden bg-black scroll-smooth"
+        className="relative min-h-screen w-full overflow-hidden bg-[#171717] scroll-smooth"
       >
         {/* Pure Black Background */}
-        <div className="absolute inset-0 bg-black"></div>
+        <div className="absolute inset-0 bg-[#171717]"></div>
 
         {/* Floating Particles */}
         <div className="absolute inset-0 pointer-events-none">
@@ -488,6 +488,8 @@ export default function CompleteBannerComponent({ backgroundRef, textRef }) {
             />
           ))}
         </div>
+
+
 
         {/* Main Content Grid */}
         <div className="relative z-10 grid lg:grid-cols-2 min-h-screen">
@@ -539,7 +541,7 @@ export default function CompleteBannerComponent({ backgroundRef, textRef }) {
           </div>
 
           {/* Right Section - 3D Model (Completely Static) */}
-          <div className="relative flex items-start justify-center min-h-[70vh] lg:min-h-screen pt-8 lg:pt-16 p-4 lg:p-6">
+          <div className="relative flex items-start lg:col-span-1 justify-center min-h-[70vh] lg:min-h-screen pt-8 lg:pt-16  ">
             
             {/* 3D Model Container - No Movement or Rotation */}
             <div className="relative w-full h-full max-w-6xl max-h-[900px] -mt-8 lg:-mt-16">
@@ -549,7 +551,7 @@ export default function CompleteBannerComponent({ backgroundRef, textRef }) {
                 <div className="relative w-full h-full min-h-[650px] lg:min-h-[850px] overflow-hidden">
                   <Spline
                     ref={splineRef}
-                    scene="https://prod.spline.design/duzoI3LlQTc86Ia5/scene.splinecode"
+                    scene="https://prod.spline.design/FLqA5LDtuBPCIaSY/scene.splinecode"
                     className="w-full h-full"
                     onLoad={() => {
                       console.log('3D Scene loaded successfully');
@@ -595,6 +597,9 @@ export default function CompleteBannerComponent({ backgroundRef, textRef }) {
           </button>
         </div>
       </section>
+      
+
+     
 
       {/* Enhanced Process Section */}
       <section id="process" className="py-32 bg-white relative overflow-hidden">
